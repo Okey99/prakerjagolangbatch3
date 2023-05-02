@@ -1,0 +1,2 @@
+Nama : Achmad Sulaimu Zurrokhi
+Status : Peserta Pra Kerja Golang Batch 3 2023
