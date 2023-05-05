@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 func mergeArrays(arr1 []string, arr2 []string) []string {
 	mergedArr := append(arr1, arr2...)
 	uniqueNames := make(map[string]bool)
@@ -15,12 +19,12 @@ func mergeArrays(arr1 []string, arr2 []string) []string {
 	return result
 }
 
-// func main() {
-// 	array1 := []string{"king", "devil jin", "akuma"}
-// 	array2 := []string{"eddie", "steve", "geese"}
-// 	mergedArray := mergeArrays(array1, array2)
-// 	fmt.Println(mergedArray)
-// }
+func main() {
+	array1 := []string{"king", "devil jin", "akuma"}
+	array2 := []string{"eddie", "steve", "geese"}
+	mergedArray := mergeArrays(array1, array2)
+	fmt.Println(mergedArray)
+}
 
 // func main() {
 // 	array1 := []string{"sergei", "jin"}
